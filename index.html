@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>In-Quiz-Itive!</title>
 </head>
+
 <body>
-    <h1 class="heading">
-        Geo Guess!</h1>
 
-    <div class="game-area">
-        <div class="question">
-            Where?
+    <header>
+        <div id="title">
+            <h1>In-Quiz-Itive!</h1>
         </div>
-        
-        <br>
-        
-        <div class="answer">1</div>
-        <div class="answer">2</div>
-        <div class="answer">3</div>
-        <div class="answer">4</div>
-        
-        <br>
-        
-        <div class="result">correct!</div>
-        
-        <br>
-        
-        <div class="score">4/5</div>
-    </div>
+    </header>
 
-    <script src="assets/js/script.js"></script>
+    <main>
+        <div id="question-div">
+            <h3> Question 1: </h1>
+
+                <p id="question"> </p>
+
+                <p class="option"> </p><br>
+                <p class="option"> </p><br>
+                <p class="option"> </p><br>
+                <p class="option"> </p><br>
+
+                <input type="text" required id="answer">
+                <p>(Case Sensitive)</p>
+
+                <button class="submit" onclick=checkAnswer()> Check Answer </button>
+                <br>
+                <button class="submit" id="next-button" onclick=nextQuestion()>Next</button>
+
+
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>

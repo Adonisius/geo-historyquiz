@@ -1,21 +1,48 @@
-/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+SA+Beginner&family=Jost:wght@200&family=Kanit:wght@200&display=swap');
+
+/* General Body Styles */
 body {
-    font-family: Tahoma, sans-serif;
+    background-color: darkblue;
+    color: aliceblue;
+    font-family: 'Jost', sans-serif;
+    font-size: 125%;
     text-align: center;
-    padding: 15px;
 }
 
-/* Header */
-h1 {
+header {
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 25%;
+    margin-left: 37.3%;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 25%;
+    margin-left: 36.5%;
+    border-radius: 100px;
+    padding: 1rem;
     text-decoration: underline;
+    box-shadow: 20px;
+    box-shadow: 5px 5px 5px;
 }
 
-/* Game Area */
-.game-area{
-    box-sizing: border-box;
-    height: 75%;
-    width: 75%;
-    background-color: aquamarine;
-    margin-left: auto;
-    margin-right: auto;
+.option {
+    background-color: rgba(255, 255, 255, 0.514);
+    color: aliceblue;
+    min-width: 100%;
+    min-height: 3rem;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.submit {
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.514);
+    color: aliceblue;
+    border-radius: 50px;
+    min-width: 25%;
 }
